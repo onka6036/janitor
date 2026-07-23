@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MSK Janitorial Services logo">
+  <rect width="64" height="64" rx="16" fill="#0B3C5D"/>
+  <path d="M18 20h28c4.4 0 8 3.6 8 8v8c0 4.4-3.6 8-8 8H18c-4.4 0-8-3.6-8-8v-8c0-4.4 3.6-8 8-8Z" fill="#00A86B"/>
+  <path d="M24 18h16v10H24z" fill="#fff"/>
+  <path d="M22 34h20v10H22z" fill="#fff" opacity="0.9"/>
+</svg>

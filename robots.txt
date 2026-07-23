@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mskjanitorialservices.com/sitemap.xml
