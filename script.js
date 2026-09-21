@@ -184,8 +184,8 @@ const chatInput = document.getElementById('chatInput');
 const clearChatBtn = document.getElementById('clearChatBtn');
 const quickActionButtons = document.querySelectorAll('.chat-chip');
 const chatStorageKey = 'msk-chat-history';
-const companyEmail = 'mskjanitorialservices@outlook.com';
-const companyPhone = '(475) 275-5166';
+const companyEmail = 'customer@mskjanitorialservices.com';
+const companyPhone = '(203) 379-9307';
 
 const formatTime = (date = new Date()) => new Intl.DateTimeFormat([], {
   hour: 'numeric',
@@ -200,7 +200,7 @@ const escapeHtml = (value) => String(value)
 
 const createDefaultMessages = () => [{
   role: 'bot',
-  text: 'Hello 👋 Welcome to MSK Janitorial Services LLC. How can we help you today?',
+  text: 'Hello 👋 Welcome to MSK JANITORIAL SERVICES LLC. How can we help you today?',
   time: formatTime()
 }];
 
@@ -289,11 +289,11 @@ const getBotReply = (text) => {
   }
 
   if (/(contact|phone|email|address|location)/.test(value)) {
-    return 'You can reach us at (475) 275-5166 or mskjanitorialservices@outlook.com. We are located at 246 Goose Lane, Guilford, CT 06437.';
+    return 'You can reach us at (203) 379-9307 or customer@mskjanitorialservices.com. We are located at 510 Memorial Rd, Oklahoma City, OK 73114.';
   }
 
-  if (/(service area|connecticut|town|area)/.test(value)) {
-    return 'We proudly serve residential and commercial clients throughout Connecticut, including Guilford and nearby communities.';
+  if (/(service area|oklahoma|town|area)/.test(value)) {
+    return 'We proudly serve residential and commercial clients throughout Oklahoma City and nearby communities.';
   }
 
   if (/(book|schedule|appointment)/.test(value)) {
